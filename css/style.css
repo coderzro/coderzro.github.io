@@ -1,0 +1,22 @@
+.header-nav{
+    border-bottom: 1px dashed #1A566E;
+    margin-top: 10px;
+    padding-bottom: 18px;
+}
+.header-nav .logo img{
+width: 50px;
+}
+.header-nav .logo{
+    margin-right: 32%;
+    margin-left: 5%;
+}
+
+@media only screen and (max-width : 500px){
+    .header-nav .logo img{
+        width: 60px;
+        }
+        .header-nav .logo{
+            
+        }
+        
+}
