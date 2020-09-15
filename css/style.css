@@ -156,3 +156,14 @@ div.scrollmenu a {
   font-family: fontLogo;
   src: url(/fonts/CrimsonText-Regular.ttf);
 }
+
+/* Event page */
+.gold-card{
+  background-color: #20B2AA;
+  color: gold;
+  font-weight: 700;
+  display: -webkit-inline-box;
+  padding: 3px;
+  border-radius: 14px;
+}
+/* End Event page */
