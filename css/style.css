@@ -84,6 +84,7 @@ a:hover {
 .page-footer {
   background-color: #1a566e;
   color: white;
+  margin: 0 -15px;
 }
 
 /* MENU PAGE */
