@@ -22,53 +22,8 @@
 </head>
 
 <body>
-
-  <!-- <div id="logo-top" class="top-container" style="text-align: center; display: none;">
-      <img
-        style="width: 6%; margin-top: 2%; margin-bottom: 2%;"
-        src="/imgs/logo.png"
-        alt="logo-top"
-      />
-    </div> -->
-  <!-- <div id="include-header"></div> -->
   <div class="fixed">
-    <nav id="my-header-stick" class="navbar navbar-expand-lg navbar-light header-nav">
-      <!-- <img class="den-long-2" src="/imgs/logo-white.png" alt="den-long"> -->
-      <a class="navbar-brand logo" href="/"><img class="img-header" src="/imgs/TEXT-LOGO.png" alt="" /></a>
-      <!-- <img class="den-long-1" src="/imgs/den-long-1.png" alt="den-long"> -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div style="padding-left: 5em;" class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav header-ul">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li style="z-index: 5;" class="nav-item">
-            <a class="nav-link" href="/menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a style="border-bottom: 1px dashed;"  class="nav-link" href="/event/kayrewards.html">Event</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/recruitment.html">Tuyển dụng</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Liên hệ</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown link
-                </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                  </li> -->
-        </ul>
-      </div>
-    </nav>
+    <div kay-include-html = "/header.html"></div>
   </div>
   <div class="container">
     <div style="display: none;" id="menu-desktop" class="row">
@@ -189,52 +144,13 @@
   </div>
   <div class="row">
     <div class="col-12">
-      <footer class="page-footer">
-        <div class="row">
-          <div class="col-sm-6" style="display: flex; align-items: center; justify-content: center;">
-            <a class="navbar-brand footer-logo" href="/"><img class="img-footer" src="/imgs/logo-white.png" alt="" /></a>
-          </div>
-          <div class="col-sm-6">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-                <ul class="list-unstyled list-inline social text-center">
-                  <li class="list-inline-item">
-                    <a href="https://www.facebook.com/KayKafe/">
-                      <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;KayKafe</a>
-                  </li><br>
-                  <li class="list-inline-item">
-                    <a href="tel:+84787986679"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;0787.986.679</a>
-                  </li><br>
-                  <li class="list-inline-item">
-                    <a href="mailto:kaykafe.com@gmail.com"><i class="fa fa-envelope"></i>&nbsp;&nbsp;kaykafe.com@gmail.com</a>
-                  </li><br>
-                  <li class="list-inline-item">
-                    <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp; Đường số 7, Điện Biên Phủ, Thị trấn Long hải, BRVT . Long Hải</a>
-                  </li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-            <p class="h6">© Kaykafé - 2020</a></p>
-          </div>
-          <hr>
-        </div>
-      </footer>
+      <div kay-include-html="/footer.html"></div>
     </div>
   </div>
 
-  </div>
-  <!-- Footer -->
-
-  <!-- Footer -->
-  <!-- <div id="include-footer"></div> -->
-
   <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/util.js"></script>
+  <script>includeHTML();</script>
   <script type="text/javascript">
     if (window.screen.width <= 500) {
       document.getElementById('menu-desktop').style.display = "none";
