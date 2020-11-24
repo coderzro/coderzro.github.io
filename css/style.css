@@ -3,8 +3,24 @@
   font-family:kay-font-quick-san;
   src: url("/fonts/Quicksand-Regular.ttf");
 }
+@font-face {
+  font-family:kay-font-noel-bold;
+  src: url("/fonts/NOEL-Coiny-Regular.ttf");
+}
+@font-face {
+  font-family: fontLogo;
+  src: url(/fonts/CrimsonText-Regular.ttf);
+}
 body{
   font-family: kay-font-quick-san;
+  padding-top:75px;
+}
+.img-bg-content{
+  position: fixed;
+    top: 30%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width: 60%;
 }
 a {
   text-decoration: none;
@@ -38,11 +54,13 @@ a:hover {
     width: 100%;
     z-index: 1;
   }
-#include-header {
-  /* background-color: #1a566e; */
-}
 .header-nav {
-  background-color: #1a566e;
+  /* background-color: #1a566e; */
+  background-image:url(/imgs/bg-noen-header-blue.gif) ;
+  font-family: kay-font-noel-bold;
+}
+.header-nav.li{
+  width: fit-content;
 }
 .img-header {
   width: 8em;
@@ -82,7 +100,9 @@ a:hover {
   border-bottom: 1px dashed;
 }
 .page-footer {
-  background-color: #1a566e;
+  /* background-color: #1a566e; */
+  background-image:url(/imgs/bg-noen-header-blue.gif) ;
+  font-family: kay-font-noel-bold;
   color: white;
   margin: 0 -15px;
 }
@@ -116,9 +136,9 @@ div.scrollmenu {
 }
 div.scrollmenu a {
   background-color: rgb(234, 128, 37);
-  padding: 10px 5px;
+  padding: 18px 7px;
   border-radius: 3px;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 .menu-mobile ul {
   width: 100%;
@@ -144,8 +164,18 @@ div.scrollmenu a {
   list-style-type: none;
 }
 /* END MENU PAGE */
-
+@media only screen and (min-width:600px){
+  #sroll-menu-mobile{
+    display: none;
+  }
+  .img-bg-content{
+    display:none;
+  }
+}
 @media only screen and (max-width: 500px) {
+  #sroll-menu-mobile{
+    font-family:kay-font-noel-bold;
+  }
   .den-long-1{
     display: block;
     width: 42px;
@@ -172,10 +202,7 @@ div.scrollmenu a {
   }
 }
 
-@font-face {
-  font-family: fontLogo;
-  src: url(/fonts/CrimsonText-Regular.ttf);
-}
+
 
 /* Event page */
 .gold-card{
