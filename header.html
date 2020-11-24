@@ -10,19 +10,19 @@
  <div style="padding-left: 5em; z-index: 10;" class="collapse navbar-collapse" id="navbarNavDropdown">
    <ul class="navbar-nav header-ul">
      <li class="nav-item active">
-       <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+       <a id="dots-home" class="nav-link " href="/">Home <span class="sr-only">(current)</span></a>
      </li>
-     <li style="z-index: 5;" class="nav-item">
-       <a style="border-bottom: 1px dashed;" class="nav-link" href="/menu.html">Menu</a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="/recruitment.html">Tuyển dụng</a>
+     <li  class="nav-item">
+       <a id="dots-menu" class="nav-link " href="/menu.html">Menu</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="/event/kayrewards.html">Event</a>
+       <a id="dots-recruiment" class="nav-link " href="/recruitment.html">Tuyển dụng</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="#">Liên hệ</a>
+       <a id="dots-reward" class="nav-link " href="/event/kayrewards.html">Event</a>
+     </li>
+     <li class="nav-item">
+       <a id="dots-lien-he" class="nav-link " href="#">Liên hệ</a>
      </li>
      <!-- <li class="nav-item dropdown">
                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -37,4 +37,19 @@
    </ul>
  </div>
   </div>
+  <!-- <script>
+     $(document).ready(function() {
+    if (window.location.href.indexOf("/menu") > -1) {
+      document.getElementById('dots-menu').style.borderBottom = '1px dashed';
+    }else if (window.location.href.indexOf("/home") > -1) {
+      document.getElementById('dots-home').style.borderBottom = ' 1px dashed';
+    }else if (window.location.href.indexOf("/reward") > -1) {
+      document.getElementById('dots-reward').style.borderBottom = '1px dashed';
+    }else if (window.location.href.indexOf("/recruiment") > -1) {
+      document.getElementById('dots-recruiment').style.borderBottom = '1px dashed';
+    }else if (window.location.href.indexOf("/#") > -1) {
+      document.getElementById('dots-lien-he').style.borderBottom = '1px dashed';
+    }
+  });
+  </script> -->
 </nav>
