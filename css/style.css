@@ -163,6 +163,9 @@ div.scrollmenu a {
 .menu-left ul {
   list-style-type: none;
 }
+.img-product img{
+  border-radius: 5px 27px;
+}
 /* END MENU PAGE */
 @media only screen and (min-width:600px){
   #sroll-menu-mobile{
@@ -170,6 +173,16 @@ div.scrollmenu a {
   }
   .img-bg-content{
     display:none;
+  }
+  .img-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-product img{
+    width: 66%;
+    margin-top: 2%;
+    border-radius: 5px 41px;
   }
 }
 @media only screen and (max-width: 500px) {
