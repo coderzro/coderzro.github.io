@@ -108,6 +108,9 @@ a:hover {
 }
 
 /* MENU PAGE */
+.label-new-product{
+  width: 9%;
+}
 .wrap-temp{
   background-color: rebeccapurple;
   height: 80px!important;
@@ -188,6 +191,9 @@ div.scrollmenu a {
 @media only screen and (max-width: 500px) {
   #sroll-menu-mobile{
     font-family:kay-font-noel-bold;
+  }
+  .label-new-product{
+    width: 23%;
   }
   .den-long-1{
     display: block;
