@@ -2,6 +2,9 @@
 @font-face {
   font-family:kay-font-quick-san;
   src: url("/fonts/Quicksand-Regular.ttf");
+}@font-face {
+  font-family:kay-font-pattaya;
+  src: url("/fonts/Pattaya-Regular.ttf");
 }
 @font-face {
   font-family:kay-font-noel-bold;
@@ -14,6 +17,8 @@
 body{
   font-family: kay-font-quick-san;
   padding-top:75px;
+  /* background-image: url(/imgs/bg-content-tet.jpg);
+  background-repeat: no-repeat; */
 }
 .img-bg-content{
   position: fixed;
@@ -56,15 +61,15 @@ a:hover {
   }
 .header-nav {
   /* background-color: #1a566e; */
-  background-image:url(/imgs/bg-noen-header-blue.gif) ;
-  font-family: kay-font-noel-bold;
+  background-image:url(/imgs/bg-new-year-header-blue.gif) ;
+  font-family: kay-font-pattaya;
 }
 .header-nav.li{
   width: fit-content;
 }
 .img-header {
-  width: 8em;
-  margin-right: 9em;
+  width: 18em;
+  /* margin-right: 9em; */
 }
 
 .header-nav .logo {
@@ -87,7 +92,7 @@ a:hover {
   width: 5em;
 }
 .header-ul li a {
-  color: white !important;
+  color: #779EB0  !important;
   font-size: large;
   /* padding-right: 1em!important;
     padding-left: 1em!important; */
@@ -101,8 +106,8 @@ a:hover {
 }
 .page-footer {
   /* background-color: #1a566e; */
-  background-image:url(/imgs/bg-noen-header-blue.gif) ;
-  font-family: kay-font-noel-bold;
+  background-image:url(/imgs/bg-new-year-header-blue.gif) ;
+  font-family: fontLogo;
   color: white;
   margin: 0 -15px;
 }
@@ -119,7 +124,7 @@ div.cover-scroll{
   background-color: white;
     width: 100%;
     height: 46px;
-    margin-top: 8px;
+    margin-top: -18px;
 }
 div.wrap-cover-scroll{
   margin: 0!important;
@@ -127,10 +132,10 @@ div.wrap-cover-scroll{
     /* width: 900px; */
 }
 div.scrollmenu {
-  /* background-color: #333; */
+  background-color:white;
   overflow: auto;
   white-space: nowrap;
-  margin-top: 7px;
+  margin-top: -21px;
   padding-top: 13px;
   padding-bottom: 13px;
   transition: .4s;
@@ -138,7 +143,8 @@ div.scrollmenu {
   /* width: 50em; */
 }
 div.scrollmenu a {
-  background-color: rgb(234, 128, 37);
+  /* background-color: rgb(234, 128, 37); */
+  background-image: linear-gradient(#f46b45,#eea849);
   padding: 9px 4px;
   border-radius: 3px;
   /* font-weight: 700; */
@@ -190,7 +196,7 @@ div.scrollmenu a {
 }
 @media only screen and (max-width: 500px) {
   #sroll-menu-mobile{
-    font-family:kay-font-noel-bold;
+    font-family:fontLogo;
   }
   .label-new-product{
     width: 23%;
@@ -209,7 +215,7 @@ div.scrollmenu a {
     margin-right: -42px;
   }
   .img-header {
-    width: 10em;
+    width: 13em;
     margin-right: 0;
   }
   .footer-logo img {
