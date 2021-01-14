@@ -1,22 +1,26 @@
-Quicksand Variable Font
-=======================
+Lora Variable Font
+==================
 
-This download contains Quicksand as both a variable font and static fonts.
+This download contains Lora as both variable fonts and static fonts.
 
-Quicksand is a variable font with this axis:
+Lora is a variable font with this axis:
   wght
 
-This means all the styles are contained in a single file:
-  Quicksand-VariableFont_wght.ttf
+This means all the styles are contained in these files:
+  Lora-VariableFont_wght.ttf
+  Lora-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Quicksand:
-  static/Quicksand-Light.ttf
-  static/Quicksand-Regular.ttf
-  static/Quicksand-Medium.ttf
-  static/Quicksand-SemiBold.ttf
-  static/Quicksand-Bold.ttf
+in those cases you can use the static font files for Lora:
+  static/Lora-Regular.ttf
+  static/Lora-Medium.ttf
+  static/Lora-SemiBold.ttf
+  static/Lora-Bold.ttf
+  static/Lora-Italic.ttf
+  static/Lora-MediumItalic.ttf
+  static/Lora-SemiBoldItalic.ttf
+  static/Lora-BoldItalic.ttf
 
 Get started
 -----------
