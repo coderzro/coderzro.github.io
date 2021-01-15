@@ -87,7 +87,8 @@ a:hover {
 .header-nav {
   /* background-color: #1a566e; */
   background-image: url(/imgs/bg-new-year-header-blue.gif);
-  font-family: kay-font-pattaya;
+  font-family: kay-font-quick-san;
+  /* font-weight: 800; */
 }
 .header-nav.li {
   width: fit-content;
